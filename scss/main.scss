@@ -1,6 +1,8 @@
 @import 'config';
 @import 'home';
 @import 'menu';
+@import 'about';
+@import 'projects';
 
 body{
     background-color:map-get($darkcolor,primary);
@@ -38,6 +40,6 @@ footer{
 
   width: 100%;
   text-align: center;
-  z-index: 2;
+  z-index: 0;
 }
 

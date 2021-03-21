@@ -1,0 +1,25 @@
+
+
+.aboutsec{
+  text-align: center;
+    padding: 4% 0%;
+    color: #232323;
+    .sectitle{
+        font-size: 2.5rem;  
+        font-weight: 700;
+        &::after{
+            content: "   ";
+            display: block;
+            height: 3px;
+            width: 45px;
+            background-color: #ff214f;
+            margin: 0 auto;
+        } 
+    }
+    p{
+        margin: 0 auto;
+        width: 70%;
+        font-size: 1.3rem; 
+    }
+    
+}
