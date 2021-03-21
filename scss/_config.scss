@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+$darkcolor:("primary":white,
+"secondary":black,
+"text":#fbfbfb,
+"accent":#ff214f,
+"shadow":#1c1c1c
+);
+
+$mainfont:'Work Sans', sans-serif;
+
+@mixin pointer {
+     cursor: pointer;
+}

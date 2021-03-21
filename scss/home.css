@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap");
+.homesec {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(../images/pic1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.homesec .canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.homesec-content {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 70%;
+  top: 50%;
+  left: 2%;
+  right: 2%;
+  color: black;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border-radius: 2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: 'Montserrat, sans-serif';
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.homesec span {
+  color: #ff214f;
+}
+
+.homesec button {
+  background-color: transparent;
+  border: 2px solid black;
+  font-size: 1.5rem;
+  padding: 1.5% 1%;
+  cursor: pointer;
+}
+
+.homesec button:hover {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=home.css.map */
