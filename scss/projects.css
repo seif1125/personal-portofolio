@@ -1,6 +1,5 @@
 .projectsec {
   padding: 4% 0%;
-  height: 80vh;
   text-align: center;
 }
 
@@ -20,6 +19,8 @@
 }
 
 .card-cont {
+  width: 90%;
+  margin: auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[1];

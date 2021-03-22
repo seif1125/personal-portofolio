@@ -39,9 +39,11 @@
   margin: 8% auto;
   text-align: center;
   list-style: none;
+  padding: 0;
 }
 
 .menu-cont .menu-list li:nth-child(1) {
+  text-transform: uppercase;
   margin: 2% auto;
   font-size: 2rem;
   -webkit-transform: translateX(100vw);
@@ -67,6 +69,7 @@
 }
 
 .menu-cont .menu-list li:nth-child(2) {
+  text-transform: uppercase;
   margin: 2% auto;
   font-size: 2rem;
   -webkit-transform: translateX(100vw);
@@ -92,6 +95,7 @@
 }
 
 .menu-cont .menu-list li:nth-child(3) {
+  text-transform: uppercase;
   margin: 2% auto;
   font-size: 2rem;
   -webkit-transform: translateX(100vw);
@@ -117,6 +121,7 @@
 }
 
 .menu-cont .menu-list li:nth-child(4) {
+  text-transform: uppercase;
   margin: 2% auto;
   font-size: 2rem;
   -webkit-transform: translateX(100vw);

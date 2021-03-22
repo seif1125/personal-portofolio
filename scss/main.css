@@ -93,9 +93,11 @@
   margin: 8% auto;
   text-align: center;
   list-style: none;
+  padding: 0;
 }
 
 .menu-cont .menu-list li:nth-child(1) {
+  text-transform: uppercase;
   margin: 2% auto;
   font-size: 2rem;
   -webkit-transform: translateX(100vw);
@@ -121,6 +123,7 @@
 }
 
 .menu-cont .menu-list li:nth-child(2) {
+  text-transform: uppercase;
   margin: 2% auto;
   font-size: 2rem;
   -webkit-transform: translateX(100vw);
@@ -146,6 +149,7 @@
 }
 
 .menu-cont .menu-list li:nth-child(3) {
+  text-transform: uppercase;
   margin: 2% auto;
   font-size: 2rem;
   -webkit-transform: translateX(100vw);
@@ -171,6 +175,7 @@
 }
 
 .menu-cont .menu-list li:nth-child(4) {
+  text-transform: uppercase;
   margin: 2% auto;
   font-size: 2rem;
   -webkit-transform: translateX(100vw);
@@ -227,7 +232,6 @@
 
 .projectsec {
   padding: 4% 0%;
-  height: 80vh;
   text-align: center;
 }
 
@@ -247,6 +251,8 @@
 }
 
 .card-cont {
+  width: 90%;
+  margin: auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[1];
@@ -317,6 +323,52 @@
   height: 100%;
 }
 
+.contactsec {
+  padding: 2% 0%;
+  text-align: center;
+  margin-top: 25%;
+  background-color: #232323;
+  border-top: 1px solid black;
+}
+
+.contactsec h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.contactsec h1::after {
+  content: "   ";
+  display: block;
+  height: 3px;
+  width: 45px;
+  background-color: #ff214f;
+  margin: 0 auto;
+}
+
+.main-footer-sociallist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.main-footer-sociallist li {
+  margin: 0% 1%;
+  cursor: pointer;
+}
+
+.main-footer-sociallist li:hover i {
+  color: #ff214f;
+}
+
 body {
   background-color: white;
   color: white;
@@ -352,8 +404,12 @@ header nav div i {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #101010;
+  color: white;
   width: 100%;
   text-align: center;
-  z-index: 0;
+  z-index: 2;
 }
 /*# sourceMappingURL=main.css.map */

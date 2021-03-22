@@ -6,7 +6,7 @@
 .projectsec{
    
     padding: 4% 0%;
-    height: 80vh;
+   
      text-align: center;
 
       h1{
@@ -24,6 +24,8 @@
       }
 }
 .card-cont{
+    width:90%;
+    margin:auto;
           display: grid;
     grid-template-columns: repeat(1,1fr);
       grid-gap: 1%;
